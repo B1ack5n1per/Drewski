@@ -1,0 +1,19 @@
+.container {
+  background: var(--Light);
+  margin: 2rem auto;
+  height: auto;
+  width: 75%;
+  border: 10px solid var(--Primary);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.container h2 {
+  margin: 1rem;
+  color: var(--Font);
+}
+
+.container p {
+  margin: 1rem;
+  color: var(--Primary);
+}

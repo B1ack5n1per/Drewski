@@ -1,0 +1,49 @@
+:root {
+  --Primary: #ff82af;
+  --Light: #ffffff;
+  --Grey: #7a7a7a;
+  --Font: #171717;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+  background: var(--Grey);
+}
+
+nav {
+  height: 3rem;
+  background: var(--Light);
+  padding-top: 0.5rem;
+  margin: -10px;
+  font-weight: bolder;
+}
+
+.nav-brand {
+  display: inline;
+  margin: 1rem;
+  font-size: 2rem;
+  height: 3rem;
+  width: 10rem;
+}
+
+.links {
+  position: absolute;
+  display: inline-flex;
+  flex-direction: row;
+  align-self: right;
+  right: 0;
+  padding: 0 1rem;
+  height: 3rem;
+  width: calc(100% - 10rem);
+}
+
+.links a {
+  margin: 0.5rem auto;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--Primary);
+}
+
+.links a:hover {
+  color: var(--Grey);
+}
